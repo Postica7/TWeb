@@ -36,19 +36,16 @@
         <li>
           <img
             src="imagini/thumb1.png"
-            onclick="imgSlider('img1.png');changeCircleColor('#017143')"
           />
         </li>
         <li>
           <img
             src="imagini/thumb2.png"
-            onclick="imgSlider('img2.png');changeCircleColor('#eb7143')"
           />
         </li>
         <li>
           <img
             src="imagini/thumb3.png"
-            onclick="imgSlider('img3.png');changeCircleColor('#d7143')"
           />
         </li>
       </ul>
@@ -64,15 +61,5 @@
         </li>
       </ul>
     </section>
-
-    <script type="text/javascript">
-      function imgSlider(anything) {
-        document.querySelector(".starbucks").src = anything;
-      }
-      function changeCircleColor(color) {
-        const circle = document.querySelector(".circle");
-        circle.style.background = color;
-      }
-    </script>
   </body>
 </html>
